@@ -1,0 +1,39 @@
+:root{
+    /*primario*/
+    --very-dark-magenta: hsl(300, 43%, 22%);
+    --soft-pink: hsl(333, 80%, 67%);
+
+    /* Neutral */
+    --dark-grayish-magenta: hsl(303, 10%, 53%);
+    --light-graysh-magenta: hsl(300, 24%, 96%);
+    --white: hsl(0,0%, 100%);
+}
+
+
+.contenedor{
+    display: flex;
+    flex-wrap: wrap;
+    height: 100vh;
+    padding: 40px;
+    font-size: 15px;
+}
+
+.descripcion{
+    width: 50%;
+    height: 50%;
+}
+
+.resultados{
+    font-weight: bold;
+    color: var(--very-dark-magenta);
+    font-size: 30px;
+}
+
+.calificacion{
+    width: 50%;
+}
+
+.coment-contenedor{
+    width: 100%;
+    height: 50%;
+}
